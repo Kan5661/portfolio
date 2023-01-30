@@ -2,30 +2,38 @@
     background-color: rgb(72, 88, 71);
     height: 75px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 0 0 5px 1px black;
 }
 
-.Home {
-    flex: 7;
-    padding-left: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.About {
-    flex: 1;
-}
-
-.Work {
-    flex: 1
-}
-
-.Contact {
-    flex: 1
-}
-
-.About, .Work, .Contact {
+.About, .Work, .Contact, .Home {
     text-align: center;
     text-decoration: none;
     color: white;
+    flex: 1;
+    max-width: 75px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.empty {
+    flex: 6
+}
+
+.About:hover, .Work:hover, .Contact:hover, .Home:hover {
+    color: rgb(0, 5, 2);
+    background-color: rgb(115, 148, 114);
+}
+.About:active, .Work:active, .Contact:active, .Home:active {
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 700px) {
+    .About, .Work, .Contact, .Home {
+        max-width: 50px;
+        font-size: 16px;
+    }
 }
