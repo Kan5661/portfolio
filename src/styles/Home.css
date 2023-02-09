@@ -1,0 +1,33 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+}
+
+.Name {
+    font-size: 144px;
+    font-weight: 900;
+    color: rgb(23, 29, 23);
+    text-shadow: -5px 5px 0px rgb(136, 147, 131);
+    animation: NameAnimation 1s forwards;
+    position: relative;
+    opacity: 0;
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+@keyframes NameAnimation {
+    0% {
+        top: 0px
+    }
+    50% {
+        
+    }
+    100% {
+        top: 10px;
+        opacity: 1;
+    }
+}
+
+.SkillImage {
+    width: 70px;
+}
