@@ -13,10 +13,12 @@ function Home() {
     return(
         <div className="HomePage">
             <div>
-                <div className="Name">Kan Lin</div>
-                <div>
+                <div className="Name">Kan Lin
+                <div className='NameTitle'>Software Engineer</div>
+                </div>
+                <div className='Technologies'>
                     <div>Technologies</div>
-                    <div>
+                    <div className='SkillsList'>
                         <img className='SkillImage' src={js}></img>
                         <img className='SkillImage' src={css}></img>
                         <img className='SkillImage' src={html}></img>

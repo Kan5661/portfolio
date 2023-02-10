@@ -1,3 +1,7 @@
+* {
+    text-align: center;
+}
+
 .HomePage {
     display: flex;
     justify-content: center;
@@ -12,15 +16,20 @@
     position: relative;
     opacity: 0;
     margin-top: 50px;
-    visibility: hidden;
+    margin-bottom: 50%;
+    /* visibility: hidden; */
 }
-
+.NameTitle {
+    font-size: 50px;
+    position: relative;
+    top: -50px
+}
 @keyframes NameAnimation {
     0% {
         top: 0px
     }
     50% {
-        
+        opacity: 0;
     }
     100% {
         top: 10px;
@@ -31,10 +40,18 @@
 .SkillImage {
     width: 70px;
     margin: 10px;
-    transition: rotate 0.5s;
+    transition: rotate 0.5s, scale 0.5s;
 }
 
 .SkillImage:hover {
     scale: 1.10;
     rotate: 5deg;
+}
+
+.Technologies {
+    margin-bottom: 50%;
+}
+
+.SkillsList {
+    
 }
