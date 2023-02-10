@@ -30,4 +30,11 @@
 
 .SkillImage {
     width: 70px;
+    margin: 10px;
+    transition: rotate 0.5s;
+}
+
+.SkillImage:hover {
+    scale: 1.10;
+    rotate: 5deg;
 }
