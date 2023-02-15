@@ -1,9 +1,9 @@
 export const projects = [
     {
-        name: "Project_1",
+        name: "2048",
         description: "Project_1_desc",
-        tech: ["python", "html"],
-        thumbnail: '',
+        tech: ["python", "pygame"],
+        thumbnail: 'https://github.com/Kan5661/2048/raw/main/assets/blocks.png',
         img: [
             "https://assets.vg247.com/current/2014/05/flappy_bird.gif",
             "https://th.bing.com/th/id/R.554c2649f84023fdbc1dbe9f8d4d9d64?rik=kEoFBPDz0Qi%2bdg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fflappy-birds-hd.jpg&ehk=st2GYR6Xa7Prfkiki81lq9wT8%2fwf0QpEi7cqyO7gD%2bc%3d&risl=&pid=ImgRaw&r=0",

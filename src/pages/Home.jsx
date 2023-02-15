@@ -10,25 +10,31 @@ import react from '../images/react.png'
 import flask from '../images/flask2.png'
 import { projects } from '../projects.js'
 import { useState } from 'react'
+import ProjectModal from '../components/ProjectModal.jsx'
 
 function Home() {
     const [project, setProject] = useState([])
+    const [showProjectModal, setShowProjectModal] = useState(false)
 
     function handleProjectOnClick(project) {
-        console.log(`clicked on ${project.name}!`)
         setProject(project)
+        setShowProjectModal(true)
     }
 
     const projectsList = projects.map(project => {
         return (
             <div className='Project' onClick={() => handleProjectOnClick(project)}>
-                <img className='ProjectThumbnail' src={project.img[0]}></img>
+                <div className='ProjectThumbnail' style={{backgroundImage: `url(${project.thumbnail})`}}></div>
+                <div className='ProjectTitle'>{project.name}</div>
             </div>
         )
 
     })
     return(
         <div className="HomePage">
+
+            <ProjectModal showProjectModal={showProjectModal} setShowProjectModal={setShowProjectModal}/>
+
             <div>
 
 
