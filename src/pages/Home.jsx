@@ -7,7 +7,7 @@ import mongodb from '../images/mongodb.png'
 import mongoose from '../images/mongoose.webp'
 import python from '../images/python.png'
 import react from '../images/react.png'
-import flask from '../images/flask.jpeg'
+import flask from '../images/flask2.png'
 
 function Home() {
     return(
@@ -19,18 +19,52 @@ function Home() {
                 <div className='Technologies'>
                     <div>Technologies</div>
                     <div className='SkillsList'>
-                        <img className='SkillImage' src={js}></img>
-                        <img className='SkillImage' src={css}></img>
-                        <img className='SkillImage' src={html}></img>
-                        <img className='SkillImage' src={django}></img>
-                        <img className='SkillImage' src={mongodb}></img>
-                        <img className='SkillImage' src={mongoose}></img>
-                        <img className='SkillImage' src={react}></img>
-                        <img className='SkillImage' src={flask}></img>
-                        <img className='SkillImage' src={python}></img>
+                        <div>
+                            <img className='SkillImage' src={js}></img>
+                            <p className='SkillName'>JAVASCRIPT</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={python}></img>
+                            <p className='SkillName'>PYTHON</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={react}></img>
+                            <p className='SkillName'>REACT.js</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={django}></img>
+                            <p className='SkillName'>DJANGO</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={flask}></img>
+                            <p className='SkillName'>FLASK</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={mongodb}></img>
+                            <p className='SkillName'>MongoDB</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={mongoose}></img>
+                            <p className='SkillName'>MONGOOSE</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={css}></img>
+                            <p className='SkillName'>CSS</p>
+                        </div>
+                        <div>
+                            <img className='SkillImage' src={html}></img>
+                            <p className='SkillName'>HTML</p>
+                        </div>
+
                     </div>
                 </div>
-                <div className="Projects">Projects</div>
+                <div className="Projects">
+                    Projects
+                    <div className='Project'></div>
+                    <div className='Project'></div>
+                    <div className='Project'></div>
+                    <div className='Project'></div>
+                </div>
             </div>
         </div>
     )

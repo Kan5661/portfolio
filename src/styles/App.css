@@ -1,6 +1,21 @@
 .App {
-  background-color: rgb(225, 235, 218);
+  /* background-color: rgb(225, 235, 218); */
   min-height: 100vh;
   font-family: 'Jost', sans-serif;
   font-size: 30px;
+  background: linear-gradient(45deg, rgb(130, 155, 110), rgb(51, 115, 118), rgb(62, 66, 131), rgb(149, 42, 142));
+  background-size: 300% 300%;
+  animation: background-color 5s ease-in-out infinite;
+}
+
+@keyframes background-color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
