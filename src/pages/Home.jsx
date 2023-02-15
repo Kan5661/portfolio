@@ -61,10 +61,7 @@ function Home() {
                 <div className="Projects">
                     <div className="SectionTitle">Projects</div>
                     <div className="ProjectsList">
-                        <div className='Project'></div>
-                        <div className='Project'></div>
-                        <div className='Project'></div>
-                        <div className='Project'></div>
+                        {/* map project.json */}
                     </div>
                 </div>
             </div>
