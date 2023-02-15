@@ -17,7 +17,7 @@ function Home() {
                 <div className='NameTitle'>Software Engineer</div>
                 </div>
                 <div className='Technologies'>
-                    <div>Technologies</div>
+                    <div className='SectionTitle'>Technologies</div>
                     <div className='SkillsList'>
                         <div>
                             <img className='SkillImage' src={js}></img>
@@ -59,11 +59,13 @@ function Home() {
                     </div>
                 </div>
                 <div className="Projects">
-                    Projects
-                    <div className='Project'></div>
-                    <div className='Project'></div>
-                    <div className='Project'></div>
-                    <div className='Project'></div>
+                    <div className="SectionTitle">Projects</div>
+                    <div className="ProjectsList">
+                        <div className='Project'></div>
+                        <div className='Project'></div>
+                        <div className='Project'></div>
+                        <div className='Project'></div>
+                    </div>
                 </div>
             </div>
         </div>

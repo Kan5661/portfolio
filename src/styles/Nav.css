@@ -1,5 +1,5 @@
 .Nav {
-    background-color: rgba(37, 52, 37, 0.392);
+    background-color: rgba(0, 0, 0, 0.4);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -28,11 +28,10 @@
 }
 
 .About:hover, .Work:hover, .Contact:hover, .Home:hover {
-    color: rgb(0, 5, 2);
-    background-color: rgba(255, 255, 255, 0.186);
+    background-color: rgba(0, 0, 0, 0.1)
 }
 .About:active, .Work:active, .Contact:active, .Home:active {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 700px) {
