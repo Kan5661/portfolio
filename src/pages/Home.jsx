@@ -8,8 +8,16 @@ import mongoose from '../images/mongoose.webp'
 import python from '../images/python.png'
 import react from '../images/react.png'
 import flask from '../images/flask2.png'
+import {projects} from '../projects.js'
+
+import { useState } from 'react'
 
 function Home() {
+    const [project, setProject] = useState([])
+    function handleProjectOnClick() {
+
+    }
+    console.log(projects)
     return(
         <div className="HomePage">
             <div>
