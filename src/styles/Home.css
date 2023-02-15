@@ -108,3 +108,25 @@
 .SkillImage:hover + .SkillName {
     visibility: visible;
 }
+
+.Projects {
+    margin-bottom: 40%;
+}
+
+.ProjectsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Project {
+    border: 5px solid white;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 25px 5px;
+    contain: content;
+}
+
+.ProjectThumbnail {
+    object-fit: cover;
+}

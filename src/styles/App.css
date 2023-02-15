@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   /* background-color: rgb(225, 235, 218); */
   min-height: 100vh;

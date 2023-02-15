@@ -8,22 +8,35 @@ import mongoose from '../images/mongoose.webp'
 import python from '../images/python.png'
 import react from '../images/react.png'
 import flask from '../images/flask2.png'
-import {projects} from '../projects.js'
-
+import { projects } from '../projects.js'
 import { useState } from 'react'
 
 function Home() {
     const [project, setProject] = useState([])
-    function handleProjectOnClick() {
 
+    function handleProjectOnClick(project) {
+        console.log(`clicked on ${project.name}!`)
+        setProject(project)
     }
-    console.log(projects)
+
+    const projectsList = projects.map(project => {
+        return (
+            <div className='Project' onClick={() => handleProjectOnClick(project)}>
+                <img className='ProjectThumbnail' src={project.img[0]}></img>
+            </div>
+        )
+
+    })
     return(
         <div className="HomePage">
             <div>
+
+
                 <div className="Name">Kan Lin
-                <div className='NameTitle'>Software Engineer</div>
+                    <div className='NameTitle'>Software Engineer</div>
                 </div>
+
+
                 <div className='Technologies'>
                     <div className='SectionTitle'>Technologies</div>
                     <div className='SkillsList'>
@@ -66,12 +79,16 @@ function Home() {
 
                     </div>
                 </div>
-                <div className="Projects">
+
+
+                <div className="Projects" id='projects'>
                     <div className="SectionTitle">Projects</div>
                     <div className="ProjectsList">
-                        {/* map project.json */}
+                        {projectsList}
                     </div>
                 </div>
+
+
             </div>
         </div>
     )

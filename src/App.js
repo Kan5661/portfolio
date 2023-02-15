@@ -9,7 +9,7 @@ import Contact from './pages/Contact.jsx'
 function App() {
   return (
     <div className='Background'>
-      <div className="App">
+      <div className="App" id='App'>
         <Nav />
         <Routes>
           <Route path='/' element={<Home />}/>
