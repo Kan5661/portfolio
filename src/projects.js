@@ -3,11 +3,12 @@ export const projects = [
         name: "2048",
         description: "Project_1_desc",
         tech: ["python", "pygame"],
-        thumbnail: 'https://github.com/Kan5661/2048/raw/main/assets/blocks.png',
+        thumbnail: 'https://i.imgur.com/eqDlIBV.gif',
         img: [
-            "https://assets.vg247.com/current/2014/05/flappy_bird.gif",
-            "https://th.bing.com/th/id/R.554c2649f84023fdbc1dbe9f8d4d9d64?rik=kEoFBPDz0Qi%2bdg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fflappy-birds-hd.jpg&ehk=st2GYR6Xa7Prfkiki81lq9wT8%2fwf0QpEi7cqyO7gD%2bc%3d&risl=&pid=ImgRaw&r=0",
-            "https://media.giphy.com/media/euuaA2cwLEUuI/giphy.gif"
+            "https://i.imgur.com/eqDlIBV.gif",
+            "https://i.imgur.com/DJccKbz.gif",
+            "https://github.com/Kan5661/2048/raw/main/assets/blocks.png",
+            'https://i.imgur.com/mf2kqt7.png'
         ],
         repo_link: "https://github.com/Kan5661",
         live_link: "https://github.com/Kan5661"

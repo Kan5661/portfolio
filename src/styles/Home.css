@@ -127,6 +127,7 @@
     margin: 50px 20px;
     color: rgb(246, 246, 246);
     transition: scale 0.2s;
+    cursor: pointer;
 }
 
 .Project:hover {
@@ -141,6 +142,7 @@
     border: 5px solid white;
     border-radius: 5%;
     box-shadow: 0 0 10px 5px black;
+    background-size: cover;
 }
 
 .ProjectTitle {

@@ -1,19 +1,27 @@
 import '../styles/Home.css'
-import js from '../images/js-badge.webp'
-import css from '../images/CSS_Badge.png'
-import html from '../images/HTML_Badge.png'
-import django from '../images/django.png'
-import mongodb from '../images/mongodb.png'
-import mongoose from '../images/mongoose.webp'
-import python from '../images/python.png'
-import react from '../images/react.png'
-import flask from '../images/flask2.png'
+import js from '../images/logoImages/js-badge.webp'
+import css from '../images/logoImages/CSS_Badge.png'
+import html from '../images/logoImages/HTML_Badge.png'
+import django from '../images/logoImages/django.png'
+import mongodb from '../images/logoImages/mongodb.png'
+import mongoose from '../images/logoImages/mongoose.webp'
+import python from '../images/logoImages/python.png'
+import react from '../images/logoImages/react.png'
+import flask from '../images/logoImages/flask2.png'
 import { projects } from '../projects.js'
 import { useState } from 'react'
 import ProjectModal from '../components/ProjectModal.jsx'
 
 function Home() {
-    const [project, setProject] = useState([])
+    const [project, setProject] = useState({
+        name: "",
+        description: "",
+        tech: [],
+        thumbnail: '',
+        img: [],
+        repo_link: "",
+        live_link: ""
+    })
     const [showProjectModal, setShowProjectModal] = useState(false)
 
     function handleProjectOnClick(project) {
@@ -33,7 +41,7 @@ function Home() {
     return(
         <div className="HomePage">
 
-            <ProjectModal showProjectModal={showProjectModal} setShowProjectModal={setShowProjectModal}/>
+            <ProjectModal project={project} showProjectModal={showProjectModal} setShowProjectModal={setShowProjectModal}/>
 
             <div>
 

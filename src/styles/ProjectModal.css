@@ -53,6 +53,10 @@
 
 }
 
+.ProjectName {
+    margin: 0 auto;
+}
+
 #closeButton {
     position: fixed;
     right: 5px;
@@ -65,3 +69,39 @@
     rotate: 180deg;
     scale: 1.05
 }
+
+#closeButton:active {
+    top: 8px
+}
+
+.ProjectImgPreview {
+    width: 20vw;
+}
+
+.ProjectImgSlider {
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2.5%;
+    background-color: rgba(211, 211, 211, 0.634);
+    border-bottom: 5px solid black ;
+    border-top: 5px solid black ;
+}
+
+.ImgPrevContainer {
+    flex: 0 0 auto;
+    width: 500px;
+    height: 100%;
+    background-position: center center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: auto 10px;
+    background-color: rgba(4, 4, 4, 0.634);
+    border: 2px solid black;
+}
+

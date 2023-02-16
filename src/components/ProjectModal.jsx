@@ -1,11 +1,33 @@
 import '../styles/ProjectModal.css'
 
-function ProjectModal({setShowProjectModal, showProjectModal}) {
+function ProjectModal({project, setShowProjectModal, showProjectModal}) {
+    const projectImages = project.img.map(image => {
+        return(
+            <div 
+            className='ImgPrevContainer' style={{backgroundImage: `url(${image})`}}>
+                
+            </div>
+        )
+    }
+)
+
     return(
         <div className="ModalContainer" id={showProjectModal? 'showModal' : 'closeModal'}>
-            {/* <i class="fa-solid fa-xmark" onClick={() => setShowProjectModal(false)}></i> */}
-            {/* <i class="fa-regular fa-rectangle-xmark" onClick={() => setShowProjectModal(false)}></i> */}
+            
             <i id='closeButton' class="fa-regular fa-circle-xmark" onClick={() => setShowProjectModal(false)}></i>
+            
+            <h1 className='ProjectName'>{project.name}</h1>
+            
+            <div className='ProjectImgSlider'>
+                {projectImages}
+            </div>
+            
+            <div className='ProjectInfo'>  
+                <div>Description</div>
+                <div>Tech</div>
+                <a>Live Deployed Site</a>
+                <a>GitHub Repo</a>
+            </div>
         </div>
     )
 }
