@@ -8,8 +8,13 @@ function ProjectModal({project, setShowProjectModal, showProjectModal}) {
                 
             </div>
         )
-    }
-)
+    })   
+    let skills = project.tech.map(skill => {
+        return(
+            skill
+        )
+    })
+    skills = skills.join(', ')
 
     return(
         <div className="ModalContainer" id={showProjectModal? 'showModal' : 'closeModal'}>
@@ -23,10 +28,10 @@ function ProjectModal({project, setShowProjectModal, showProjectModal}) {
             </div>
             
             <div className='ProjectInfo'>  
-                <div>Description</div>
-                <div>Tech</div>
-                <a>Live Deployed Site</a>
-                <a>GitHub Repo</a>
+                <div className='ProjectInfos'>Description: <span className='DescriptionText'>{project.description}</span></div>
+                <div className='ProjectInfos'>Technologies used: {skills}</div>
+                <a id='Link' className='ProjectInfos' href={project.live_link} target='_blank'>Live Deployed Site</a>
+                <a id='Link' className='ProjectInfos' href={project.repo_link} target='_blank'>GitHub Repo</a>
             </div>
         </div>
     )

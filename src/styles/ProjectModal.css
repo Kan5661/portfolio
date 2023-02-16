@@ -105,3 +105,51 @@
     border: 2px solid black;
 }
 
+.ProjectInfo {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.ProjectInfos {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+
+.ProjectInfos:nth-child(1) {
+    flex: 1;
+    text-align: start;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.ProjectInfos:nth-child(2), .ProjectInfos:nth-child(3), .ProjectInfos:nth-child(4){
+    flex: 0.5;
+}
+
+.DescriptionText {
+    font-size: 20px;    
+}
+
+#Link {
+    background-color: rgba(103, 216, 241, 0.63);
+    border: 3px solid black;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+    text-decoration: none;
+    color: blue;
+    box-shadow: 0 0 5px 0.5px black;
+}
+
+#Link:hover {
+    background-color: rgba(209, 239, 246, 0.759);
+}
+#Link:active {
+    color: red;
+    position: relative;
+    top: 5px
+}
