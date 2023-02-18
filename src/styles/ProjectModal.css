@@ -12,6 +12,7 @@
     flex-direction: column;
     contain: content;
     visibility: hidden;
+    box-shadow: -10px 10px 1px 1px;
 }
 
 #showModal {
@@ -135,7 +136,7 @@
 }
 
 #Link {
-    background-color: rgba(103, 216, 241, 0.63);
+    background-color: rgba(156, 248, 153, 0.63);
     border: 3px solid black;
     margin: 10px auto;
     width: 50%;
@@ -146,7 +147,8 @@
 }
 
 #Link:hover {
-    background-color: rgba(209, 239, 246, 0.759);
+    background-color: rgba(200, 247, 198, 0.63);
+    scale: 1.02
 }
 #Link:active {
     color: red;

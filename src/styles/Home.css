@@ -8,7 +8,7 @@
 }
 
 .Name {
-    font-size: 144px;
+    font-size: 180px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     text-shadow: -5px 5px 0px rgb(60, 60, 60);
@@ -22,14 +22,14 @@
     /* visibility: hidden; */
 }
 .NameTitle {
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
-    top: -50px;
+    top: -70px;
 }
 
 .SectionTitle {
     color: white;
-    font-size: 42px;
+    font-size: 84px;
     margin-bottom: 5%;
     font-weight: 800;
 }
@@ -104,6 +104,7 @@
     font-size: 16px;
     visibility: hidden;
     font-weight: 800;
+    color: rgb(172, 255, 176);
 }
 
 .SkillImage:hover + .SkillName {
