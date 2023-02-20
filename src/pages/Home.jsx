@@ -24,6 +24,10 @@ function Home() {
     })
     const [showProjectModal, setShowProjectModal] = useState(false)
 
+    const HandleDebug = () => {
+        console.log(window)
+    }
+
     function handleProjectOnClick(project) {
         setProject(project)
         setShowProjectModal(true)
@@ -102,6 +106,7 @@ function Home() {
                     </div>
                 </div>
 
+                <button className='Debug' onClick={HandleDebug}>Debug</button>
 
             </div>
         </div>

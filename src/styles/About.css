@@ -1,0 +1,13 @@
+.AboutPage {
+    color: white;
+    margin: 0;
+}
+
+.AboutMe {
+    background-color: rgba(18, 158, 14, 0.209);
+    margin: 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

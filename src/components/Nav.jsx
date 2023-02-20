@@ -1,17 +1,20 @@
 import '../styles/Nav.css'
-import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
  
 function Nav() {
+    const Navigate = useNavigate()
     const [currentPath, setCurrentPath] = useState('')
-    const ProjectAnchor = () => {
-        if (window.location.pathname == '/') document.getElementById('projects').scrollIntoView()
+    const ProjectAnchor = async () => {
+        // if (window.location.pathname == '/') document.getElementById('projects').scrollIntoView()
+        await Navigate('/')
+        document.getElementById('projects').scrollIntoView()
     }
     return(
         <div className="Nav" id='Nav'>
             <Link to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className='Home'>Home</Link>
             <div className='empty'></div>
-            <Link to='/' className='Work' onClick={ProjectAnchor}>Projects</Link>
+            <div className='Work' onClick={ProjectAnchor}>Projects</div>
             <Link to='About' className='About'>About</Link>
             <Link to='/Contact' className='Contact'>Contact</Link>
         </div>

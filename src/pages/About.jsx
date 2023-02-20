@@ -1,7 +1,14 @@
+import '../styles/About.css'
+
 function About() {
     return(
-        <div>
-            About, Resume
+        <div className="AboutPage">
+            <div className='AboutMe'>
+               I am who?
+            </div>
+            <div className='Resume'>
+
+            </div>
         </div>
     )
 }
