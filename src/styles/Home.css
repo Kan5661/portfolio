@@ -16,7 +16,7 @@
     position: relative;
     opacity: 0;
     margin-top: 50px;
-    margin-bottom: 40%;
+    margin-bottom: 25%;
     filter: brightness(0%);
     cursor: default ;
     /* visibility: hidden; */
@@ -29,8 +29,7 @@
 
 .SectionTitle {
     color: white;
-    font-size: 84px;
-    margin-bottom: 5%;
+    font-size: 74px;
     font-weight: 800;
 }
 @keyframes NameAnimation {
@@ -90,7 +89,9 @@
 }
 
 .Technologies {
-    margin-bottom: 40%;
+    background-color: rgba(42, 42, 42, 0.154);
+    border-radius: 100px;
+    margin: 0 3% 25% 3%;
 }
 
 .SkillsList {
@@ -112,20 +113,23 @@
 }
 
 .Projects {
-    margin-bottom: 40%;
+    background-color: rgba(42, 42, 42, 0.154);
+    border-radius: 100px;
+    margin: 0 3% 20% 3%;
 }
 
 .ProjectsList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 5% 0 5% 0;
 }
 
 .Project {
     /* border: 5px solid white; */
     width: 500px;
     height: 500px;
-    margin: 50px 20px;
+    margin: 50px 20px 100px 20px;
     color: rgb(246, 246, 246);
     transition: scale 0.2s;
     cursor: pointer;
