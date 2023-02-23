@@ -10,21 +10,33 @@
 .Name {
     font-size: 180px;
     font-weight: 900;
-    color: rgb(0, 0, 0);
-    text-shadow: -5px 5px 0px rgb(60, 60, 60);
-    animation: NameAnimation 1s forwards, NameShadow 4s infinite forwards;
+    color: rgb(159, 160, 255);
+    /* text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5); */
+    animation: NameAnimation 1s forwards, NameEffect 4s linear infinite; /* NameShadow 4s infinite forwards; */
     position: relative;
     opacity: 0;
     margin-top: 50px;
     margin-bottom: 25%;
-    filter: brightness(0%);
     cursor: default ;
-    /* visibility: hidden; */
+    background-image: linear-gradient(to right, rgb(0, 202, 104) , rgb(31, 140, 230), rgb(59, 205, 152), rgb(0, 202, 104));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    background-size: 200%;
 }
+
 .NameTitle {
     font-size: 60px;
     position: relative;
     top: -70px;
+    background-image: linear-gradient(to right, rgb(0, 202, 104) , rgb(31, 140, 230), rgb(59, 205, 152), rgb(0, 202, 104));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    background-size: 200%;
+    animation: NameEffect 5s linear infinite
 }
 
 .SectionTitle {
@@ -45,27 +57,60 @@
     }
 }
 
-@keyframes NameShadow {
+@keyframes NameEffect {
     0% {
-        text-shadow: -3px 3px 1px rgba(60, 60, 60, 0.5);
-    }
-    5% {
-        text-shadow: 0px 0px 1px rgba(60, 60, 60, 0.5);
-    }
-    10% {
-        text-shadow: -3px 3px 1px rgba(60, 60, 60, 0.5)
-    }
-    90% {
-        text-shadow: -5px 5px 1px rgba(60, 60, 60, 0.5);
-    }
-
-    95% {
-        text-shadow: -3px 0px 1px rgba(60, 60, 60, 0.5);
+        background-position: 0% center;
     }
 
     100% {
-        text-shadow: -3px 3px 1px rgba(60, 60, 60, 0.5);
+        background-position: -200% center;
     }
+}
+
+@keyframes NameShadow {
+    0% {
+        text-shadow: -10px 10px 1px rgba(0, 0, 0, 0.5);
+    }
+    5% {
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+    10% {
+        text-shadow: -10px 10px 1px rgba(0, 0, 0, 0.5)
+    }
+    90% {
+        text-shadow: -10px 10px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    95% {
+        text-shadow: -10px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        text-shadow: -10px 10px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 0% {
+        text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    96% {
+        text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+     
+    97% {
+        text-shadow: -10px -10px 0px rgba(0, 0, 0, 0.5);
+    }
+    98% {
+        text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    99% {
+        text-shadow: -10px -10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5);
+    } */
+
 }
 
 .SkillImage {
