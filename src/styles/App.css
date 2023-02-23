@@ -30,4 +30,5 @@ html {
   right: 100px;
   width: 100px;
   height: 30px;
+  visibility: hidden;
 }

@@ -1,8 +1,8 @@
 export const projects = [
     {
         name: "2048",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        tech: ["Python", "Pygame"],
+        description: "This is my first project in GA (General Assembly) where we learned about DOM manipulation and I choose to program 2048 to implement my learnings. I had a lot of fun creating this one because coming up an 'algorithm' that just works was pretty challenging and the fact that I drew all the assets on MS paint.",
+        tech: ["Javascript", "HTML", 'CSS'],
         thumbnail: 'https://i.imgur.com/eqDlIBV.gif',
         img: [
             "https://i.imgur.com/eqDlIBV.gif",
@@ -10,8 +10,8 @@ export const projects = [
             "https://github.com/Kan5661/2048/raw/main/assets/blocks.png",
             'https://i.imgur.com/mf2kqt7.png'
         ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
+        repo_link: "https://github.com/Kan5661/2048",
+        live_link: "https://kan5661.github.io/2048/"
     },
 
     {
