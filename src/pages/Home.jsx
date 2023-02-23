@@ -58,39 +58,39 @@ function Home() {
                 <div className='Technologies'>
                     <div className='SectionTitle'>Technologies</div>
                     <div className='SkillsList'>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={js}></img>
                             <p className='SkillName'>JAVASCRIPT</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={python}></img>
                             <p className='SkillName'>PYTHON</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={react}></img>
                             <p className='SkillName'>REACT.js</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={django}></img>
                             <p className='SkillName'>DJANGO</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={flask}></img>
                             <p className='SkillName'>FLASK</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={mongodb}></img>
                             <p className='SkillName'>MongoDB</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={mongoose}></img>
                             <p className='SkillName'>MONGOOSE</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={css}></img>
                             <p className='SkillName'>CSS</p>
                         </div>
-                        <div>
+                        <div className='SkillContainer'>
                             <img className='SkillImage' src={html}></img>
                             <p className='SkillName'>HTML</p>
                         </div>

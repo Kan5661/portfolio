@@ -197,3 +197,49 @@
 .ProjectTitle {
     margin-top: 10px
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .Name {
+        font-size: 90px;
+    }
+
+    .NameTitle {
+        font-size: 30px;
+        top: -30px
+    }
+
+    .SectionTitle {
+        font-size: 37px;
+        padding-top: 10%
+    }
+
+    .Technologies {
+        width: 100vw;
+        margin: 0 auto 25% auto;
+        border-radius: 50px;
+    }
+
+    .SkillImage {
+        height: 65px;
+        width: 65px;
+    }
+
+    .SkillContainer {
+        width: 30%;
+        height: 30%;
+    }
+
+    .Project {
+        width: 35vw;
+        height: 35vw;
+    }
+}
