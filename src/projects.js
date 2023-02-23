@@ -54,5 +54,33 @@ export const projects = [
         ],
         repo_link: "https://github.com/Kan5661",
         live_link: "https://github.com/Kan5661"
+    },
+
+    {
+        name: "Project_5",
+        description: "Project_4_desc",
+        tech: ["javascript", "typescript"],
+        thumbnail: '',
+        img: [
+            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
+            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
+            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
+        ],
+        repo_link: "https://github.com/Kan5661",
+        live_link: "https://github.com/Kan5661"
+    },
+
+    {
+        name: "Project_6",
+        description: "Project_4_desc",
+        tech: ["javascript", "typescript"],
+        thumbnail: '',
+        img: [
+            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
+            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
+            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
+        ],
+        repo_link: "https://github.com/Kan5661",
+        live_link: "https://github.com/Kan5661"
     }
 ]

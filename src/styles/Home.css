@@ -185,8 +185,8 @@
 }
 
 .ProjectThumbnail {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     background-position: center center;
     border: 5px solid white;
     border-radius: 5%;
@@ -197,12 +197,6 @@
 .ProjectTitle {
     margin-top: 10px;
 }
-
-
-
-
-
-
 
 
 
