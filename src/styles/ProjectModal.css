@@ -133,6 +133,9 @@
 
 .ProjectInfos:nth-child(2), .ProjectInfos:nth-child(3), .ProjectInfos:nth-child(4){
     flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .DescriptionText {
@@ -152,10 +155,17 @@
 
 #Link:hover {
     background-color: rgba(200, 247, 198, 0.63);
-    scale: 1.02
+    scale: 1.02;
 }
 #Link:active {
     color: red;
     position: relative;
     top: 5px
+}
+
+
+@media screen and (max-width: 850px) {
+    .ProjectInfos:nth-child(2), .ProjectInfos:nth-child(3), .ProjectInfos:nth-child(4){
+        font-size: 20px;
+    }
 }
