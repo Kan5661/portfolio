@@ -60,6 +60,10 @@
 
 .ProjectName {
     margin: 0 auto;
+    height: 20%;
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
 }
 
 #closeButton {
@@ -122,6 +126,7 @@
     overflow-wrap: break-word;
     overflow-y: scroll;
     overflow: scroll;
+    font-weight: 400;
 }
 
 .ProjectInfos:nth-child(1) {
@@ -129,6 +134,7 @@
     text-align: start;
     padding-top: 0;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .ProjectInfos:nth-child(2), .ProjectInfos:nth-child(3), .ProjectInfos:nth-child(4){
@@ -136,6 +142,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 800;
 }
 
 .DescriptionText {
@@ -167,5 +174,18 @@
 @media screen and (max-width: 850px) {
     .ProjectInfos:nth-child(2), .ProjectInfos:nth-child(3), .ProjectInfos:nth-child(4){
         font-size: 20px;
+    }
+    .DescriptionText {
+        font-size: 16px;
+    }
+    .ProjectInfos:nth-child(1) {
+        font-size: 22px;
+    }
+
+}
+
+@media screen  and (max-width: 1200px) {
+    .ProjectName {
+        font-size: 10vw;
     }
 }
