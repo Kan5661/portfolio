@@ -191,7 +191,7 @@
     border: 5px solid white;
     border-radius: 5%;
     box-shadow: 0 0 10px 5px black;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .ProjectTitle {

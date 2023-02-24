@@ -30,7 +30,7 @@ function ProjectModal({project, setShowProjectModal, showProjectModal}) {
             <div className='ProjectInfo'>  
                 <div className='ProjectInfos'>Description: <span className='DescriptionText'>{project.description}</span></div>
                 <div className='ProjectInfos'>Technologies used: {skills}</div>
-                <a id='Link' className='ProjectInfos' href={project.live_link} target='_blank'>Live Deployed Site</a>
+                <a id='Link' className={project.live_link == ''? 'HideElement' : 'ProjectInfos'} href={project.live_link} target='_blank'>Live Deployed Site</a>
                 <a id='Link' className='ProjectInfos' href={project.repo_link} target='_blank'>GitHub Repo</a>
             </div>
         </div>

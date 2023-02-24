@@ -1,3 +1,7 @@
+.HideElement {
+    display: none;
+}
+
 .ModalContainer {
     z-index: 998;
     position: fixed;
