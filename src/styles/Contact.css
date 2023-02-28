@@ -53,3 +53,12 @@
 .EmailSubmit:active {
     color: black;
 }
+
+.Call2Action {
+    color: rgb(176, 255, 204)
+}
+
+.ImGoinCrazy {
+    font-weight: 800;
+    color: rgb(54, 234, 117);
+}

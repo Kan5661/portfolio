@@ -9,6 +9,8 @@ html {
   background: linear-gradient(45deg, rgb(130, 155, 110), rgb(51, 115, 118), rgb(62, 66, 131), rgb(149, 42, 142));
   background-size: 300% 300%;
   animation: background-color 5s ease-in-out infinite;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes background-color {

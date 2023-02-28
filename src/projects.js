@@ -15,7 +15,7 @@ export const projects = [
     },
 
     {
-        name: "Visual Memory Game",
+        name: "Visual Memory",
         description: "with a 8x8 grid, game starts by generating 1 square at a random spot of random color (green, red, or blue) that stays for a few seconds before disappearing. The player will have to input the number of all colored square shown. With each correct answer the total number of square appearing will increase by 1.",
         tech: ["Python", "Pygame library"],
         thumbnail: 'https://i.imgur.com/9cUDtDi.gif',
