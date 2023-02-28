@@ -15,6 +15,50 @@ export const projects = [
     },
 
     {
+        name: "Gourmet Gather",
+        description: "Project_3_desc",
+        tech: ["React.js", "Django", "PSQL Postgres", "Javascript", "Python"],
+        thumbnail: 'https://i.imgur.com/FcBgIyx.jpg',
+        img: [
+            "https://i.imgur.com/hyPJO7o.jpg",
+            "https://i.imgur.com/EFgpP2N.jpg",
+            "https://i.imgur.com/keujn0f.jpg",
+        ],
+        repo_link: "https://github.com/SEI-Grim-Repos/Group-Alpha",
+        live_link: "https://aesthetic-malasada-e5d24c.netlify.app/"
+    },
+
+    {
+        name: "Pokédex",
+        description: "Project_4_desc",
+        tech: ["React.js", "API", "Javascript"],
+        thumbnail: 'https://i.imgur.com/WVlYPu7.gif',
+        img: [
+            "https://i.imgur.com/WVlYPu7.gif",
+            "https://i.imgur.com/uaitMPS.png",
+            "https://i.imgur.com/fLSyIKO.png"
+        ],
+        repo_link: "https://github.com/Kan5661",
+        live_link: "https://app.netlify.com/sites/statuesque-valkyrie-77e380/overview"
+    },
+
+    {
+        name: "ReposFit",
+        description: "Project_4_desc",
+        tech: ["React.js", "MongoDB", "Mongoose", "Express", "Node.js", "Javascript"],
+        thumbnail: 'https://i.imgur.com/Mt3LPcy.png',
+        img: [
+            "https://i.imgur.com/EHraFcW.png",
+            "https://i.imgur.com/0hsoGdK.png",
+            "https://i.imgur.com/Mt3LPcy.png",
+            "https://i.imgur.com/YwFz71b.jpg"
+        ],
+        repo_link: "https://github.com/Kan5661",
+        live_link: "https://github.com/Kan5661"
+    },
+
+
+    {
         name: "Visual Memory",
         description: "with a 8x8 grid, game starts by generating 1 square at a random spot of random color (green, red, or blue) that stays for a few seconds before disappearing. The player will have to input the number of all colored square shown. With each correct answer the total number of square appearing will increase by 1.",
         tech: ["Python", "Pygame library"],
@@ -29,58 +73,22 @@ export const projects = [
     },
 
     {
-        name: "Project_3",
-        description: "Project_3_desc",
-        tech: ["javascript", "typescript"],
-        thumbnail: '',
-        img: [
-            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
-            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
-            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
-        ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
+        name: "Stuff Doer",
+        description: "Stuff Doer Description",
+        tech: [],
+        thumbnail: 'https://i.imgur.com/pLzMn4u.png',
+        img: [],
+        repo_link: '',
+        live_link: ''
     },
 
     {
-        name: "Project_4",
-        description: "Project_4_desc",
-        tech: ["javascript", "typescript"],
+        name: "Big Fish",
+        description: "Stuff Doer Description",
+        tech: [],
         thumbnail: '',
-        img: [
-            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
-            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
-            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
-        ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
+        img: [],
+        repo_link: '',
+        live_link: ''
     },
-
-    {
-        name: "Project_5",
-        description: "Project_4_desc",
-        tech: ["javascript", "typescript"],
-        thumbnail: '',
-        img: [
-            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
-            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
-            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
-        ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
-    },
-
-    {
-        name: "Project_6",
-        description: "Project_4_desc",
-        tech: ["javascript", "typescript"],
-        thumbnail: '',
-        img: [
-            "https://media.giphy.com/media/SseQ3MFrDaRWw/giphy.gif",
-            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
-            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
-        ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
-    }
-]
+]   
