@@ -7,7 +7,10 @@ import instagram_logo from '../images/logoImages/instagram_logo.png'
 function Footer() {
     return(
         <div className="Footer">
-            <img className='FooterItem' src={github_log}></img>
+            <a className='ImgLink' href={'https://github.com/Kan5661'} target='_blank'>
+                <img className='FooterItem' src={github_log}></img>
+            </a>
+            
             {/* <img className='FooterItem' src={twitter_logo}></img>
             <img className='FooterItem' src={instagram_logo}></img> */}
         </div>
