@@ -4,11 +4,11 @@
 }
 
 .FormContainer {
-    background: rgba(255, 255, 255, 0.465);
+    background: rgba(197, 255, 255, 0.253);
     width: 85vw;
     padding: 5vw;
     margin: 10% auto;
-    border-radius: 10%;
+    border-radius: 50PX;
 }
 
 .Input {
