@@ -17,6 +17,7 @@ function Contact() {
             emailjs.sendForm('service_el1nhp1', 'template_9dtg3rc', form.current, 'rxWGmO450P8ypkpbQ')
             .then((result) => {
                 console.log(result.text);
+                [form.current[0].value, form.current[1].value, form.current[2].value] = ['', '', '']
             }, (error) => {
                 console.log(error.text);
             });
@@ -32,7 +33,7 @@ function Contact() {
                     Lets connect!
                 </h2>
                 <p>
-                    Want to work together and built awesome projects? Sent a message!  Any constructive criticisms are also welcome, Sent a message! Just want to say hi? <span className='ImGoinCrazy'>SENT ME A MESSAGE!</span>
+                    Want to work together and built awesome projects? Sent a message!  Any constructive criticisms? Sent a message! Just want to say hi? <span className='ImGoinCrazy'>SENT ME A MESSAGE!</span>
                 </p>
             </div>
             <div className='FormContainer'>
@@ -44,7 +45,7 @@ function Contact() {
                     <label className='Label'>Message</label>
                     <textarea className='MessageInput' name="message" />
                     <input className='EmailSubmit' type="submit" value="Send" />
-                    <p className={showError? '' : 'HideElement'}>Empty Input Field</p>
+                    <p className={showError? 'ErrorMsg' : 'HideElement'}>Empty Input Field</p>
                 </form>
             </div>
         </div>
