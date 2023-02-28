@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css'
 
@@ -7,16 +7,22 @@ import '../styles/Contact.css'
 
 function Contact() {
     const form = useRef();
+    const [showError, setShowError] = useState(false)
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_el1nhp1', 'template_9dtg3rc', form.current, 'rxWGmO450P8ypkpbQ')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+        setShowError(false)
+        const [SenderName, SenderEmail, SenderMessage] = [form.current[0].value, form.current[1].value, form.current[2].value]
+        if (SenderName !== '' && SenderMessage !== '' && SenderEmail !== '') {
+            emailjs.sendForm('service_el1nhp1', 'template_9dtg3rc', form.current, 'rxWGmO450P8ypkpbQ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        }
+        else setShowError(true)
+
     };
 
     return(
@@ -38,6 +44,7 @@ function Contact() {
                     <label className='Label'>Message</label>
                     <textarea className='MessageInput' name="message" />
                     <input className='EmailSubmit' type="submit" value="Send" />
+                    <p className={showError? '' : 'HideElement'}>Empty Input Field</p>
                 </form>
             </div>
         </div>

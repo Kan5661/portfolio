@@ -10,6 +10,7 @@
     margin: 10% auto;
     border-radius: 50PX;
     position: relative;
+    box-shadow: -5px  5px 10px 1px;
 }
 
 .Input {
