@@ -16,7 +16,7 @@ export const projects = [
 
     {
         name: "Gourmet Gather",
-        description: "Project_3_desc",
+        description: "Full-Stack RESTful group project built in 2 weeks. This is a social media site for food posting; A place where users can create an account, create posts with pictures and descriptions, and leave comments on posts.",
         tech: ["React.js", "Django", "PSQL Postgres", "Javascript", "Python"],
         thumbnail: 'https://i.imgur.com/FcBgIyx.jpg',
         img: [
@@ -38,8 +38,8 @@ export const projects = [
             "https://i.imgur.com/uaitMPS.png",
             "https://i.imgur.com/fLSyIKO.png"
         ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://app.netlify.com/sites/statuesque-valkyrie-77e380/overview"
+        repo_link: "https://github.com/Kan5661/UI-Pattern",
+        live_link: "https://statuesque-valkyrie-77e380.netlify.app/"
     },
 
     {
@@ -84,7 +84,7 @@ export const projects = [
 
     {
         name: "Big Fish",
-        description: "Stuff Doer Description",
+        description: "Coming soon",
         tech: [],
         thumbnail: '',
         img: [],

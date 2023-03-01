@@ -33,7 +33,7 @@ function Contact() {
                     Lets connect!
                 </h2>
                 <p>
-                    Want to work together and built awesome projects? Sent a message!  Any constructive criticisms? Sent a message! Just want to say hi? <span className='ImGoinCrazy'>SENT ME A MESSAGE!</span>
+                    Want to work together and built awesome projects? Any constructive criticisms? Just want to say hi? <span className='ImGoinCrazy'>SENT ME A MESSAGE!</span>
                 </p>
             </div>
             <div className='FormContainer'>

@@ -5,8 +5,8 @@
 .ModalContainer {
     z-index: 998;
     position: fixed;
-    top: calc(50% - 35vh);
-    left: calc(50% - 40vw);
+    top: calc(50% - 40vh);
+    left: calc(50% - 45vw);
     height: 0px;
     width: 0px;
     background-color: rgba(240, 248, 255, 0.885);
@@ -35,8 +35,8 @@
     }
 
     100% {
-        width: 80vw;
-        height: 70vh;
+        width: 90vw;
+        height: 80vh;
         visibility: visible;
     }
 }

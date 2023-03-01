@@ -176,12 +176,14 @@
     height: 500px;
     margin: 50px 20px 100px 20px;
     color: rgb(246, 246, 246);
-    transition: scale 0.2s;
+    transition: scale 0.2s, filter 0.2s;
     cursor: pointer;
+    filter: brightness(95%);
 }
 
 .Project:hover {
-    scale: 1.05
+    scale: 1.05;
+    filter: brightness(100%);
 }
 
 .ProjectThumbnail {
