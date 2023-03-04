@@ -60,13 +60,11 @@ export const projects = [
 
     {
         name: "Visual Memory",
-        description: "with a 8x8 grid, game starts by generating 1 square at a random spot of random color (green, red, or blue) that stays for a few seconds before disappearing. The player will have to input the number of all colored square shown. With each correct answer the total number of square appearing will increase by 1.",
+        description: "Inspired by HumanBenchmark's sequence memory test. With a 8x8 grid, game starts by generating 1 square at a random spot of random color (green, red, or blue) that stays for a few seconds before disappearing. The player will have to input the number of all colored square shown. With each correct answer the total number of square appearing will increase by 1.",
         tech: ["Python", "Pygame library"],
         thumbnail: 'https://i.imgur.com/9cUDtDi.gif',
         img: [
             "https://i.imgur.com/YHZ3Slk.gif",
-            "https://th.bing.com/th/id/OIP.FHP3VjVRLfqQI-2Cx6xuYwHaHa?pid=ImgDet&rs=1",
-            "https://denniscooperblog.com/wp-content/uploads/2017/06/trainloop1.gif"
         ],
         repo_link: "https://github.com/Kan5661",
         live_link: ""
@@ -85,9 +83,11 @@ export const projects = [
     {
         name: "Big Fish",
         description: "Coming soon",
-        tech: [],
-        thumbnail: '',
-        img: [],
+        tech: ['Python', 'Pygame Library'],
+        thumbnail: 'https://i.imgur.com/gqrLoBf.png',
+        img: [
+            'https://i.imgur.com/gqrLoBf.png',
+        ],
         repo_link: '',
         live_link: ''
     },
