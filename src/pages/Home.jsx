@@ -8,6 +8,7 @@ import mongoose from '../images/logoImages/mongoose.webp'
 import python from '../images/logoImages/python.png'
 import react from '../images/logoImages/react.png'
 import flask from '../images/logoImages/flask2.png'
+import pygame from '../images/logoImages/pygame-head-party.png'
 import { projects } from '../projects.js'
 import { useState } from 'react'
 import ProjectModal from '../components/ProjectModal.jsx'
@@ -93,6 +94,10 @@ function Home() {
                         <div className='SkillContainer'>
                             <img className='SkillImage' src={html}></img>
                             <p className='SkillName'>HTML</p>
+                        </div>
+                        <div className='SkillContainer'>
+                            <img className='SkillImage' src={pygame}></img>
+                            <p className='SkillName'>Pygame</p>
                         </div>
 
                     </div>

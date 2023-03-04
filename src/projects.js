@@ -53,8 +53,8 @@ export const projects = [
             "https://i.imgur.com/Mt3LPcy.png",
             "https://i.imgur.com/YwFz71b.jpg"
         ],
-        repo_link: "https://github.com/Kan5661",
-        live_link: "https://github.com/Kan5661"
+        repo_link: "https://github.com/Kan5661/unit-3",
+        live_link: "https://reposfit.netlify.app/"
     },
 
 
@@ -66,7 +66,7 @@ export const projects = [
         img: [
             "https://i.imgur.com/YHZ3Slk.gif",
         ],
-        repo_link: "https://github.com/Kan5661",
+        repo_link: "https://github.com/Kan5661/8x8-Grid-Visual-Memory-Game",
         live_link: ""
     },
 
