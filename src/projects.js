@@ -76,7 +76,7 @@ export const projects = [
         tech: [],
         thumbnail: 'https://i.imgur.com/pLzMn4u.png',
         img: [],
-        repo_link: '',
+        repo_link: 'https://github.com/Kan5661/StuffDoer',
         live_link: ''
     },
 
@@ -88,7 +88,7 @@ export const projects = [
         img: [
             'https://i.imgur.com/gqrLoBf.png',
         ],
-        repo_link: '',
+        repo_link: 'https://github.com/Kan5661/Fishgame',
         live_link: ''
     },
 ]   
