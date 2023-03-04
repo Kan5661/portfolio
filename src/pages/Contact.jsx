@@ -26,6 +26,11 @@ function Contact() {
 
     };
 
+    function CopyText() {
+        navigator.clipboard.writeText('linkan0718@gmail.com')
+        alert('copied email')
+    }
+
     return(
         <div>
             <div className="Call2Action">
@@ -37,8 +42,9 @@ function Contact() {
                 </p>
             </div>
             <div className='FormContainer'>
+                <h2 id='email' className='myEmailAddress' onClick={() => CopyText()}>linkan0718@gmail.com</h2>
                 <form className='Form' ref={form} onSubmit={sendEmail}>
-                    <label className='Label'>Name</label>
+                    <label className='Label'>Your Name</label>
                     <input className='Input' type="text" name="user_name" />
                     <label className='Label'>Email</label>
                     <input className='Input' type="email" name="user_email" />

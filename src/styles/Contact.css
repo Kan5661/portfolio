@@ -75,3 +75,9 @@
     color: rgb(235, 34, 34);
     font-weight: 500;
 }
+
+.myEmailAddress {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(11, 41, 64, 0.897);
+}
