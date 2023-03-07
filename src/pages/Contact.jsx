@@ -28,7 +28,7 @@ function Contact() {
 
     function CopyText() {
         navigator.clipboard.writeText('linkan0718@gmail.com')
-        alert('copied email')
+        alert('email copied to clipboard')
     }
 
     return(

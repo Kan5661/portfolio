@@ -81,3 +81,12 @@
     cursor: pointer;
     color: rgba(11, 41, 64, 0.897);
 }
+
+@media screen and (max-width: 600px) {
+    .myEmailAddress, .Label, .Call2Action, .EmailSubmit {
+        font-size: 22px;
+    }
+    .EmailSubmit {
+        width: 200px;
+    }
+}
