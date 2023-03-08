@@ -1,9 +1,4 @@
 # portfolio
 
-## Home page contents
+[Portfolio Link](https://kan.netlify.app)
 
-## Work - list of projects
-
-## About 
-
-## Contact
