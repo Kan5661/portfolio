@@ -55,3 +55,29 @@
     color: black;
     scale: 1.03
 }
+
+@media screen and (max-width: 800px) {
+    .AboutPage {
+        font-size: 22px;
+    }
+    .ResumeButton {
+        height: 40px;
+        width: 120px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .AboutPage {
+        font-size: 16px;
+    }
+    .AboutMe {
+        border-radius: 30px;
+    }
+    .ResumeButton {
+        height: 25px;
+        width: 75px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+}
