@@ -75,7 +75,11 @@ export const projects = [
         description: "Stuff Doer Description",
         tech: [],
         thumbnail: 'https://i.imgur.com/pLzMn4u.png',
-        img: [],
+        img: [
+            'https://i.imgur.com/2hkk6X4.png',
+            'https://i.imgur.com/FhC92kw.gif',
+            'https://i.imgur.com/wmluCzx.png',
+            'https://i.imgur.com/GUtGhSQ.gif'],
         repo_link: 'https://github.com/Kan5661/StuffDoer',
         live_link: ''
     },
