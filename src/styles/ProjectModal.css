@@ -99,6 +99,7 @@
     background-color: rgba(211, 211, 211, 0.634);
     border-bottom: 5px solid black ;
     border-top: 5px solid black ;
+    scroll-snap-type: x mandatory;
 }
 
 .ImgPrevContainer {
@@ -112,6 +113,7 @@
     margin: auto 10px;
     background-color: rgba(4, 4, 4, 0.634);
     border: 2px solid black;
+    scroll-snap-align: center;
 }
 
 .ProjectInfo {
